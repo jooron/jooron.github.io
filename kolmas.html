@@ -7,10 +7,10 @@
         <link rel="stylesheet" href="https://github.com/lipis/bootstrap-social/blob/gh-pages/bootstrap-social.css">
         <link rel="stylesheet" href="tyylit.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <meta charset="UTF-8">
         
-        <title>Etusivu</title>
+        <title>Galleria</title>
     </head>
     <body>
         <div class="container">
@@ -25,16 +25,16 @@
 
             <div class="row">
                 <div class="col">
-                    <div class="container">
-                    <ul class="nav nav-pills nav-justified navbar-dark danger-color">
+                    <div class="container sticky-top">
+                    <ul class="nav nav-pills nav-justified navbar-dark danger-color sticky-top">
                         <li class="nav-item">
-                            <a class="nav-link active" href="Index.html">Etusivu</a>
+                            <a class="nav-link" href="Index.html">Etusivu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="toinen.html">Tietoa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="kolmas.html">Galleria</a>
+                            <a class="nav-link active" href="kolmas.html">Galleria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="neljas.html">Kartta</a>
@@ -45,11 +45,36 @@
             </div>
             
             <div class="row">
-                <div class="col-sm-12 mbt-0 no-gutter">
-                    <div class="jumbotron jumbotron-fluid container">
-                        <h1 class="col-sm-12 col-lg-7">Jooron.github.io</h1>
-                        <p class="col-sm-12 col-lg-7">Olet tällä hetkellä sivulla, joka on toteutettu nettisivujen kehittämis kurssille.<br>Erisivuilla on eri elementtejä käytetty. galleriassa on esimerkiksi käytetty karuselli toimintoa. Tietoa välilehdellä on taaseen linkkejä eri hakukoneisiin ja vikalla sivulla on kartta elementti upotettu sivuille.</p>
+                <div class="col">
+                  
+                    <div id="selailtava_kuvabanneri" class="carousel slide" data-ride="carousel">
+
+                        <ul class="carousel-indicators">
+                          <li data-target="#selailtava_kuvabanneri" data-slide-to="0" class="active"></li>
+                          <li data-target="#selailtava_kuvabanneri" data-slide-to="1"></li>
+                          <li data-target="#selailtava_kuvabanneri" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <div class="carousel-inner">
+                          <div class="carousel-item responsive active">
+                            <img src="kuvat/kuva3.jpg" alt="kuva 1" height="950">
+                          </div>
+                          <div class="carousel-item responsive">
+                            <img src="kuvat/paperi3.jpg" alt="kuva 2" height="950">
+                          </div>
+                          <div class="carousel-item responsive">
+                            <img src="kuvat/kuva4.jpg" alt="kuva 3" height="950">
+                          </div>
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#selailtava_kuvabanneri" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#selailtava_kuvabanneri" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
                     </div>
+
                 </div>
             </div>
 
