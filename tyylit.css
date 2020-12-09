@@ -11,7 +11,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('Kuvat/kuva2.jpg');
+    background-image: url('https://jooron.github.io/Kuvat/kuva2.jpg');
   }
   
 footer {
@@ -19,11 +19,11 @@ footer {
     padding: 10px;
     text-align: center;
     color: rgb(0, 0, 0);
-    height: 50px;
+    height: 55px;
     clear: both;
     font-family: 'Courier New', monospace;
   }
-  .no-gutter{
+.no-gutter{
     margin-top: 0;
     padding-bottom:0;
 }
@@ -40,7 +40,7 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('Kuvat/paperi3.jpg');
+    background-image: url('https://jooron.github.io/Kuvat/paperi3.jpg');
     width: 100%;
     margin-left: 0;
 }
@@ -84,7 +84,7 @@ footer {
     font-family: 'Times New Roman', serif;
 }
 iframe{
-    width: 420px;
+    width: 100%;
     height: 350px;
     margin: 0;
     padding: 0;
